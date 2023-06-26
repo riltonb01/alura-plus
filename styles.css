@@ -1,10 +1,10 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --branco-principal: #b8aaaa;
+    --cinza-secundario: #911a1a;
+    --botao-azul: #ffffff;
+    --cor-de-fundo: #61709e;
     --fonte-principal: 'Inter';
-    --botao-azul-hover: #3c92fa;
+    --botao-azul-hover: #747577;
 }
 
 body {
@@ -59,8 +59,8 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 /* codigos a construir em aula */
@@ -85,8 +85,8 @@ body {
 }
 
 .descricao__titulo{
-    font-weight: 700;
-    font-size: 48px;
+    font-weight: 800;
+    font-size: 50px;
     color: var(--branco-principal);
     margin-bottom: 0.2em;
 }
@@ -159,10 +159,10 @@ body {
 }
 
 .lista__link a:active{
-    color: red;
+    color: rgb(9, 167, 230);
 }
 
 .container__botao:hover{
     background-color: var(--botao-azul-hover);
     color: var(--cor-de-fundo);
-}
+}   
